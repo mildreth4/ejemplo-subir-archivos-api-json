@@ -1,0 +1,9 @@
+<p>
+  {{#link-to 'cargarDisco' class="ui button"}}Cargar un disco nuevo{{/link-to}}
+</p>
+
+{{#each model as |disco|}}
+  {{demo-disco disco=disco}}
+{{/each}}
+
+{{outlet}}

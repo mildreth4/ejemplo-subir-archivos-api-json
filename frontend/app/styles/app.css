@@ -1,0 +1,25 @@
+.demo-disco-container {
+  display: inline-block;
+  width: 200px;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 0.5em;
+}
+
+.demo-disco-container img {
+  width: 100%;
+}
+
+.demo-disco-container .titulo {
+  font-weight: bold;
+  margin: 2px;
+}
+
+.demo-disco-container .artista {
+  color: gray;
+  margin: 2px;
+}
+
+body {
+  padding: 1em;
+}

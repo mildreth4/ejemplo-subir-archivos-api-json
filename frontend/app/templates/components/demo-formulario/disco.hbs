@@ -1,0 +1,12 @@
+{{yield}}
+
+{{#validated-form
+  model        = (changeset model model.validaciones)
+  on-submit    = (action "submit")
+  submit-label = 'Save' as |f|}}
+
+  {{f.input label="Artista" name="artista"}}
+  {{f.input label="Título" name="titulo"}}
+
+  {{f.submit label="Guardar"}}
+{{/validated-form}}
