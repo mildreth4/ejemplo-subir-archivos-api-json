@@ -2,5 +2,5 @@
 venv
 db.sqlite3
 artículo.md
-imagenes/
+imagenes
 backend/media/
