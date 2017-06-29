@@ -4,7 +4,7 @@ from rest_framework import routers
 
 from discos import views
 
-router = routers.DefaultRouter()
+router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'discos', views.DiscoViewSet)
 
 urlpatterns = [
