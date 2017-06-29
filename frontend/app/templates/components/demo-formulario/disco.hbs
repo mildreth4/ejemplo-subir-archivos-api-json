@@ -8,5 +8,19 @@
   {{f.input label="Artista" name="artista"}}
   {{f.input label="Título" name="titulo"}}
 
+  {{#f.input label="Portada" name="portada" as |fi|}}
+    {{file-input onUpload=(action 'onUpload') extraArgumentForUpload=fi}}
+  {{/f.input}}
+
+
+  {{#if errors}}
+    <div class="ui negative message">
+      {{#each errors as |error|}}
+        <p><strong>{{error.campo}}</strong> - {{error.detalle}}</p>
+      {{/each}}
+    </div>
+  {{/if}}
+
   {{f.submit label="Guardar"}}
+
 {{/validated-form}}

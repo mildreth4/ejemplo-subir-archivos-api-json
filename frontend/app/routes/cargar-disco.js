@@ -8,6 +8,11 @@ export default Ember.Route.extend({
   actions: {
     regresar() {
       this.transitionTo("index");
+    },
+    willTransition: function() {
+      if (this.currentModel.get("isNew")) {
+        this.get("currentModel").deleteRecord();
+      }
     }
   }
 });
