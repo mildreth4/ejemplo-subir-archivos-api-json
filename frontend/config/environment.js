@@ -30,7 +30,7 @@ module.exports = function(environment) {
         // semantic ui classes
         form: "ui form",
         radio: "ui radio",
-        help: "ui red",
+        help: "ui pointing red basic label",
         checkbox: "ui checkbox",
         button: "ui button",
         group: "field",
