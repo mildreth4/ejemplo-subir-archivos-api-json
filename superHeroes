@@ -1,0 +1,39 @@
+{
+      "squadName" : "Suicide Aquad",
+      "secretBase" : "Super tower",
+      "active" : true,
+      "members" : [
+        {
+          "Nombre" : "Deadshot",
+          "Edad" : 39,
+          "Ocupacion" : "Francotirador",
+          "Habilidades" : [
+            "Experto Francotirador",
+            "Experto en Armas",
+            "Experto en Combate"
+          ]
+        },
+        {
+          "Nombre" : "Harley Quinn",
+          "Edad" : 26,
+          "Ocupacion" : "Psiquiatra",
+          "Habilidades" : [
+            "Gimnasta",
+            "Experta en Combate",
+            "Experta en Armas"
+          ]
+        },
+        {
+          "Nombre" : "Enchantress",
+          "Edad" : 6373,
+          "Ocupacion" : "Brujeria",
+          "Super Poderes" : [
+            "Manipulacion de Energia Magica",
+            "Manipulacion de la Naturaleza",
+            "Telepatia",
+            "Telequinesis",
+            "Susceptibilidad a las Energias Misticas"
+          ]
+        }
+      ]
+    }
